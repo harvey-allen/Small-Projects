@@ -1,0 +1,7 @@
+Complexity Sorting matrix elements:
+
+A merge sort was used in order to sort the the non-zero element data entries. The sort has a worst, average and best case time complexity of O(n Log n). The divide step of the sort algorithm takes constant time O(n). It takes linear time to merge the sub arrays back together.
+
+Complexity adding two matrices:
+
+The algorithm to construct the matrix sum uses an individual loop through all non-zero elements for each matrix (Individual loop time complexity O(N). This makes the overall worst average and best case time complexity of the algorithm O(N1 + N2).
